@@ -1,0 +1,50 @@
+
+/* Define the flex container for the entire page */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Define the flex container for the header */
+.header {
+    display: flex;
+    flex: 0 0 auto;
+    background-color: lightgray;
+    justify-content: space-between;
+    align-items:center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Define the flex container for the main content area */
+.main-content {
+    flex: 1 0 auto;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Define the flex container for the footer */
+.footer {
+    display: flex;
+    flex: 0 0 auto;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Define the style for the sections */
+.section {
+    flex: 1 0 25%;
+    background-color: white;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 10px;
+}
