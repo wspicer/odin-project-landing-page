@@ -81,6 +81,7 @@ ul {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    justify-content: center;
 }
 
 
@@ -88,7 +89,7 @@ ul {
 .section-1 {
     display: flex;
     flex: 1 1 auto;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 60px;
     background-color: #1f2937;
@@ -123,12 +124,13 @@ ul {
 
 }
 
-.sign-up-button {
+.sign-up-button-1 {
     text-align: center;
     background-color: #3882f6;
     color: white;
     margin-top: 0px;
     margin-bottom: 60px;
+    border-radius: 5px;
 
 }
 
@@ -177,4 +179,51 @@ ul {
 .section-3 i {
     font-size: 36px;
     color: #1f2937;
+}
+
+/* Defines the 4th section of the site and its flexboxes*/
+
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border: 10px;
+    padding: 40px;
+    margin: 20px 20px;
+    width: 75%;
+    border-radius: 10px;
+
+}
+
+
+.sign-up-button-2 {
+    text-align: center;
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    border-color: white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+
+}
+
+.section-4-left-text p {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.section-4-header {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.section-4-paragraph {
+    font-size: 16px;
+    color: white;
 }
