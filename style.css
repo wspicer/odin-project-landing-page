@@ -42,9 +42,50 @@ ul {
 
 /* Define the style for the sections */
 .section {
-    flex: 1 0 25%;
+    display: flex;
+    flex: 1 1 auto;
     background-color: white;
-    border: 1px solid gray;
-    box-sizing: border-box;
     padding: 10px;
+}
+
+.section-1 {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #1f2937;
+    
+}
+
+.section-1-left-text h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    max-width: 300px;
+
+}
+
+.section-1-left-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 0px;
+
+}
+
+img {
+    max-width: 300px;
+    max-height: 150px;
+
+}
+
+.sign-up-button {
+    text-align: center;
+    background-color: #3882f6;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 60px;
+
 }
