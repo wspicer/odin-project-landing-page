@@ -28,7 +28,7 @@ body {
 .header {
     display: flex;
     flex: 0 0 100%;
-    background-color: lightgray;
+    background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
     margin: 0px;
@@ -38,12 +38,20 @@ body {
     
 }
 
+.header h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
 ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
+    color:#f9faf8;
+    font-size: 12px;
 }
 
 /* Define the flex container for the main content area */
@@ -226,4 +234,11 @@ ul {
 .section-4-paragraph {
     font-size: 16px;
     color: white;
+}
+
+/*Footer set up*/
+.footer {
+    background-color: #1f2937;  
+    color: white;
+    font-size: 5px; 
 }
